@@ -21,10 +21,10 @@ project's `composer.json`.
 
 ## Usage
 
-To use the Captcha Service Provider, you must register the provider when bootstrapping your Laravel application. There are
+To use the ImageTool Service Provider, you must register the provider when bootstrapping your Laravel application. There are
 essentially two ways to do this.
 
-Find the `providers` key in `app/config/app.php` and register the Captcha Service Provider.
+Find the `providers` key in `app/config/app.php` and register the ImageTool Service Provider.
 
 ```php
     'providers' => array(
