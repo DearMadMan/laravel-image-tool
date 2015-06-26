@@ -56,7 +56,7 @@ class ImageTool
 
     public static function GetInstance(){
         if(!(self::$instance instanceof self)){
-            slef::$instance=new self();
+            self::$instance=new self();
         }
         return self::$instance;
     }
