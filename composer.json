@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Dearmadman\\laravel-image-tool\\": "src/"
+      "Dearmadman\\ImageTool\\": "src/"
     }
   },
   "license": "MIT",
