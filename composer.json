@@ -1,0 +1,23 @@
+{
+  "name": "dearmadman/laravel-image-tool",
+  "description": "ImageTool for Laravel 5",
+  "keywords": [
+    "laravel5",
+    "imagetool",
+    "dearmadman"
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Dearmadman\\laravel-image-tool\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dearmadman",
+      "email": "2034906607@qq.com"
+    }
+  ]
+}
