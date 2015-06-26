@@ -1,7 +1,5 @@
 <?php namespace Dearmadman\ImageTool;
 
-use Response;
-
 /**
  * imagetool.class.php
  * 图片类型检索，非图片类型pass->开启删除模式
@@ -27,16 +25,16 @@ use Response;
  *            "jpeg_quality"=>90,
  *            "watermark"=>false
  *        );
- *    imagetool::InitFromArray($arr);
- *    imagetool::GetImageFromString($upload[0],"thumb");
+ *    imagetool->setConfig($arr);
+ *    imagetool->GetImageFromString($path,"thumb");
  *        $arr=array(
  *            "width"=>$gbs["configs"]['show_width'],
  *            "height"=>$gbs["configs"]['show_height']
  *        );
- *    imagetool::InitFromArray($arr);
- *    imagetool::GetImageFromString($upload[0],"img");
+ *    imagetool->setConfig($arr);
+ *    imagetool->GetImageFromString($path,"img");
  */
-class imagetool
+class ImageTool
 {
     private  $can_remove = true; //不是图片类型可删除
     private  $width = 350;  //图片宽
