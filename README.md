@@ -1,4 +1,4 @@
-# Captcha
+# Laravel ImageTool
 Simple ImageTool for laravel 5
 
 
